@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace projektCF
+namespace projektCF_Testing
 {
-    public class ProjektCF
+    public class ProjektCF_Testing
     {
-
     }
 }

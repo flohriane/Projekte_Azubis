@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F3EB8DC6-1C01-401B-8018-51AC00E5C171}</ProjectGuid>
+    <ProjectGuid>{5F84AF64-3F89-4BD1-8FB7-A1247726E176}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>projektCF</RootNamespace>
-    <AssemblyName>projektCF</AssemblyName>
+    <RootNamespace>projektCF_Testing</RootNamespace>
+    <AssemblyName>projektCF_Testing</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,8 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ProjektCF.cs" />
+    <Compile Include="ProjektCF_Testing.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\projektCF\projektCF.csproj">
+      <Project>{f3eb8dc6-1c01-401b-8018-51ac00e5c171}</Project>
+      <Name>projektCF</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
